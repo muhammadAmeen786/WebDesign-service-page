@@ -16,4 +16,4 @@ I also learnt various flex-box properties.
  - etc etc.
 
 # Here is the preview of the project.
-[Live Project]()
+[Live Project](https://webdesignservicepage.netlify.app/)
