@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /* 
 body{
@@ -32,16 +33,7 @@ nav{
     justify-content: space-around;
     width: 30vw;
 }
-.signin-btn{
-    background: linear-gradient(
-        to  right,
-        rgb(86, 11, 96),rgb(243, 137, 252));
-    height: 2rem;
-    width: 5rem;
-    border: none;
-    color: white;
-    border-radius: 10px;
-}
+
 .intro-section{
     display: flex;
 }
@@ -51,16 +43,17 @@ nav{
     width: 30vw;
     margin-left: 5rem;
     margin-top: 5rem;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     height: 20rem;
     flex-direction: column;
     justify-content: space-around;
+    padding: 0;
 }
 .imgs-div{
     position: absolute;
     margin-left: 34vw;
     margin-top: -1rem;
-    border: 3px solid red;
+    /* border: 3px solid red; */
 }
 .vector-img{
     height: 50px;
@@ -88,6 +81,37 @@ nav{
     height: 35rem;
     width: 40rem;
 }
+.left-section>h1{
+    font-size: 60px;
+    /* border: 2px solid red; */
+}
+.left-section>h4{
+    /* border: 2px solid red; */
+    width: 70%;
+    color: rgb(187, 181, 181);
+    height: max-content;
+    line-height: 24px;
+    font-size: small;
+}
+.signin-btn,.learn-more-btn{
+    background: linear-gradient(
+        to  right,
+        rgb(86, 11, 96),rgb(243, 137, 252));
+    height: 2rem;
+    width: 7rem;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 800;
+}
+.learn-more-btn{
+    width: 8rem;
+    margin-left: 5%;
+}
+
+
+
 
 
 
